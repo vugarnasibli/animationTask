@@ -202,3 +202,63 @@
 .middleAnimation:hover span {
     width: 60px;
 }
+
+.conatnier {
+    background-color: rgb(241, 120, 245);
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding-top: 10px;
+}
+
+
+.content {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-left: 10px;
+    position: relative;
+    animation-duration: 4s;
+    animation-name: test;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes test {
+    0% {
+        background-color: blue;
+        border-radius: 100px;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: red;
+        border-radius: 0px;
+        left: 330px;
+        top: 0;
+    }
+
+    50% {
+        background-color: green;
+        border-radius: 100px;
+        left: 330px;
+        top: 330px;
+    }
+
+    75% {
+        background-color: chocolate;
+        border-radius: 0px;
+        left: 0;
+        top: 330px;
+    }
+
+    100% {
+        background-color: blue;
+        left: 0;
+        top: 0;
+    }
+}
